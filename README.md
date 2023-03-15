@@ -7,7 +7,7 @@ NameValidation - empty => Disabled button
 
 ![image](https://user-images.githubusercontent.com/64930024/225350769-c9be4aa7-ef7f-4268-ad65-05f5df78d30c.png)
 
-EmailValidation - false => Enabled button 
+EmailValidation - false => Enabled button </br>
 PasswordValidation - false => No error message thrown && Enabled button 
 RoleValidation(select) - selected to other than role => Enabled button
 NameValidation - anything other than empty => Enabled button
