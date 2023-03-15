@@ -99,11 +99,11 @@ function App() {
             <input
               type="password"
               onBlur={() =>
-                setPassword({ value: password.value, isTouched: true })
+                setPassword({ ...password, isTouched: true })
               }
               placeholder="Password"
               value={password.value}
-              onChange={(e) => setPassword({ value: e.target.value })}
+              onChange={(e) => setPassword({ ...password,value: e.target.value })}
             />
             {checkPassLength && <PasswordErrorMessage />}
           </div>
